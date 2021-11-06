@@ -1,0 +1,98 @@
+nav {
+  background-color: #E7EFF3;
+  background-image:none;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size:large;
+  padding-bottom: 5px;
+}
+
+body {
+  background-image: url("../imgs/background-image.png");
+  background-color:#2B4951;
+  color: #E7EFF3;
+}
+
+p {
+  padding: 10px;
+}
+
+main {
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+}
+
+h1 {
+  font-family: 'Reem Kufi', sans-serif;
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  color:#E7EFF3;
+}
+
+#logo {
+  padding-top: 10px;
+  border:none;
+  box-shadow: none;
+  background-color: #E7EFF3;
+  width: 100%;
+}
+
+
+nav li{
+	padding:2px;
+	display: block;
+}
+
+
+a {
+  color: #2B4951;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #6295a1;
+
+}
+
+a:visited{color:#2B4951}
+
+
+img {
+  border: 5px solid #E7EFF3;
+}
+
+#longboards {
+  display:grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+}
+
+#chairs {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+}
+
+
+.currentText{
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 4px solid #2B4951;
+}
+
+
+
+/* 
+
+@media screen and (min-width: 850px){
+  body {
+    color: white;
+    background-image: none;
+  }
+  
+} */
+
